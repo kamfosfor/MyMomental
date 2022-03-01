@@ -1,0 +1,63 @@
+.main_container {
+    max-width: 80rem;
+    height: 100vh;
+    /* padding: 0 1rem; */
+    /* padding: 0px; */
+    padding: 3rem 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.blob_stroke {
+    background-color: #FF6F61;
+    -webkit-mask: url(/images/background-blob.png) no-repeat center;
+    mask: url(/images/background-blob.png) no-repeat center;
+}
+
+.blob {
+    opacity: 1;
+    width: 0px;
+    /* FONT-WEIGHT: 10; */
+    /* left: 110px; */
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo {
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 5em;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container:hover .blob {
+    width: 180px;
+    cursor: pointer;
+}
+
+.container:hover .logo {
+    height: 6em;
+}
