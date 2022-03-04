@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
             <img  className={styles.blob} src="/images/background-blob.png"/>
             <img src="/images/profile.png"  className={styles.logo}   alt="MyMomental" />
           </div>
-        <div class="title-container title">
+        <div className={"title-container title"}>
           <div>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </div>

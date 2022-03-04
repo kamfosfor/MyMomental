@@ -47,7 +47,7 @@ export default function Post({ postData }){
                 <h1 className={blogStyles.post_title}>{postData.title}</h1>
                 <p>{formatDate(postData.date)}</p>
                 <span style={{height: "100%"}}></span>
-                <p class="backto_button">
+                <p className={"backto_button"}>
                   <Link href='/blog'>
                     <a>back to articles</a>
                   </Link>

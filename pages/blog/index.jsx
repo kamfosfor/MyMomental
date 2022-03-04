@@ -6,7 +6,6 @@ import Script from 'next/script'
 
 // data
 import { getAllPosts } from '../../lib/api';
-import ErrorBoundary from 'next'
 
 // styles
 import styles from '../../styles/Home.module.css';
