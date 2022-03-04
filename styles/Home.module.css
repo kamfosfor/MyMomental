@@ -1,0 +1,63 @@
+.container{
+  overflow: hidden;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
+  /* align-content: flex-start; */
+  align-items: stretch;
+  width: -webkit-fill-available;
+}
+
+.main{
+  display: flex;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: auto;
+
+
+}
+.title{
+  line-height: 1em;
+  width: min-content;
+  white-space: nowrap;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 0.3em;
+  
+}
+
+.section{
+    /* height: 100%; */
+    /* overflow: auto; */
+    display: flex;
+    /* position: relative; */
+    flex-direction: row;
+    width: -webkit-fill-available;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 18px;
+}
+
+
+/* 
+header,
+footer {
+  height: 30px;
+} */

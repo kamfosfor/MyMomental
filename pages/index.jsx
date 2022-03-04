@@ -38,7 +38,14 @@ export default function Home() {
             <h3>Our team &rarr;</h3>
             <div><small>Meet our experts!</small></div>
           </a>
+          <Link href='/blog'>
+           <a className="card">
+            <h3>Blog&rarr;</h3>
+            <div className="card-desc"><small>Check out the latest posts.</small></div>
+          </a>
+          </Link>
         </div>
+       
       </main>
 
       <footer>
@@ -159,6 +166,7 @@ export default function Home() {
           flex-wrap: nowrap;
           align-items: stretch;
           justify-content: space-between;
+          overflow: scroll;
         }
 
         .card {
@@ -175,7 +183,7 @@ export default function Home() {
           transition: transform ease 300ms;
         /* padding: 30px; */
         border-radius: 50px;
-        margin: 30px;
+        // margin: 30px;
          box-shadow: 0 0 20px #0000003b;
         
         }

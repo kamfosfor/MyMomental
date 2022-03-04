@@ -1,5 +1,10 @@
 html,
 body {
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+
     background-color: #40333d;
     color: white;
     padding: 0;
@@ -12,17 +17,6 @@ body {
 
 * {
     box-sizing: border-box;
-}
-
-a {
-    color: #FF6F61;
-    text-decoration: none;
-    padding: 5px; 
-    border-radius:10px;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 img {
@@ -43,13 +37,6 @@ img {
     background-color: #FF6F61 !important;
     color: black !important;
     text-decoration: none;
-}
-
- a:hover,
- a:focus,
- a:active {
-    background-color: #0000002b !important;
-    color: #FF6F61 !important;
 }
 
 .title {
@@ -74,3 +61,86 @@ img {
     height: 0em;
     display: inline-block;
 }
+
+
+.backto_button{
+    border-radius: 100px;
+    margin: 20px;
+    margin-left: -5px;
+    width: fit-content;
+    /* padding: 0px !important; */
+    position: relative;
+    display: flex;
+    
+}
+
+
+a {
+    color: #FF6F61;
+    text-decoration: none;
+    padding: 5px; 
+    border-radius:10px;
+}
+
+
+.backto_button a{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 100px;
+    margin-left: -5px;
+    width: fit-content;
+    /* padding: 0px !important; */
+    color: #38c0a9;
+    background: #38b8c04a;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+   background-color: #0000002b !important;
+   color: #FF6F61 !important;
+}
+
+.backto_button a:hover {
+    color: #FF6F61 !important;
+}
+
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: auto;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }

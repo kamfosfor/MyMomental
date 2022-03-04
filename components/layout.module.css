@@ -1,12 +1,19 @@
 .main_container {
     max-width: 80rem;
-    height: 100vh;
-    /* padding: 0 1rem; */
-    /* padding: 0px; */
-    padding: 3rem 4rem 3rem;
+    padding: 1rem 3rem;
+    /* margin: 3rem 4rem 6rem; */
+    height: -webkit-fill-available;
+    max-width: 80rem;
     display: flex;
-    flex-direction: column;
+    /* padding: 0 1rem; */
+    /* margin: 3rem 4rem 6rem; */
+    height: -webkit-fill-available;
     flex-wrap: nowrap;
+    height: 100vh;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .header {
@@ -17,7 +24,12 @@
 }
 
 .backToHome {
-    margin: 3rem 0 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .blob_stroke {
