@@ -193,13 +193,17 @@ font-variant-caps: all-small-caps;
 }
 
 .post_content{
-    border-radius: 0px 50px 0px 0px;
+    border-radius: 0 50px 0 0;
     border: 2px solid #38c0a9;
     margin-top: 20px;
-    z-index: 100 !important;
+    z-index: 100!important;
     padding: 30px;
     overflow: auto;
-    height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    min-height: fit-content;
+    height: 100vh;
+    padding-bottom: 4em;
     margin-right: 4em;
     box-shadow: 2px 2px 50px 1px #38c0a966;
 }
