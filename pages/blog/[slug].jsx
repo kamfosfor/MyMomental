@@ -27,7 +27,7 @@ export default function Post({ postData }){
     <div className={styles.container}>
 
         <Head>
-          <title>{postData.title}</title>
+          {/* <title>{postData.title}</title> */}
           <link rel='icon' href='/favicon.ico' />
         </Head>
 

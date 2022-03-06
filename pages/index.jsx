@@ -49,10 +49,10 @@ export default function Home() {
       </main>
 
       <footer>
-      <div class="footer-text">
-        By [ <a href="https://huasca07.com" target="_blank" rel="noopener noreferrer" class="jsx-c9907ca87fd63b79">mmti</a> ]
+      <div className={"footer-text"}>
+        By [ <a href="https://huasca07.com" target="_blank" rel="noopener noreferrer">mmti</a> ]
       </div>
-      <div class="footer-text">
+      <div className={"footer-text"}>
       <h1 className=" small left">
           Read{' '}
           <Link href="/posts/first-post">
