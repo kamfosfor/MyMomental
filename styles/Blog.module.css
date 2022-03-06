@@ -34,6 +34,7 @@
     width: min-content;
     max-height: min-content;
     transition: border-right 0.3s;
+    box-shadow: 0px 0px 10px #00000040;
 
 }
 
@@ -115,15 +116,16 @@ font-variant-caps: all-small-caps;
     padding: 7px;
     /* padding-bottom: 23px; */
     /* width: 70%; */
-    line-height: 0.7em;
+    
     /* background: #2d3343; */
-    border-bottom: 7px solid #2e7dff;
+    border-bottom: 4px solid #2e7dff;
     color: white;
     align-self: center;
     padding-right: 20px;
     padding-left: 20px;
-    border-radius: 16px 19px 17px 25px;
-    
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 .listitem__content h2:active {
     box-shadow: 0px -1px 100px 6px #3846c08a;

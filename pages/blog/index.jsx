@@ -39,12 +39,13 @@ const Blog = ({ allPosts: { edges } }) => (
       <section className={styles.section} >
         {edges.map(({ node }) => (
 
+          
           <div className={blogStyles.listitem} key={node.id}>
-
+          <Link href={`/blog/${node.slug}`}>
             <div className={blogStyles.readMore}>
-              <Link href={`/blog/${node.slug}`}>
+              {/* <Link href={`/blog/${node.slug}`}>
                 <a>Read more ></a>
-              </Link>
+              </Link> */}
             </div>
             
             <div className={blogStyles.listitem__thumbnail}>
@@ -62,7 +63,9 @@ const Blog = ({ allPosts: { edges } }) => (
               <p>{node.extraPostInfo.authorExcerpt}</p>
               
             </div>
+          </Link>
           </div>
+          
         ))}
       </section>
     </main>
