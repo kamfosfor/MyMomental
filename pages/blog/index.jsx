@@ -38,10 +38,8 @@ const Blog = ({ allPosts: { edges } }) => (
       <h1 className={styles.title}>Latest blog articles</h1>
       <section className={styles.section} >
         {edges.map(({ node }) => (
-
-          
-          <div className={blogStyles.listitem} key={node.id}>
           <Link href={`/blog/${node.slug}`}>
+          <div className={blogStyles.listitem} key={node.id}>
             <div className={blogStyles.readMore}>
               {/* <Link href={`/blog/${node.slug}`}>
                 <a>Read more ></a>
@@ -63,8 +61,8 @@ const Blog = ({ allPosts: { edges } }) => (
               <p>{node.extraPostInfo.authorExcerpt}</p>
               
             </div>
-          </Link>
           </div>
+          </Link>
           
         ))}
       </section>
