@@ -50,7 +50,7 @@ export default function Home() {
 
       <footer>
       <div className={"footer-text"}>
-        By [ <a href="https://huasca07.com" target="_blank" rel="noopener noreferrer">mmti</a> ]
+        By [ <a href="https://github.com/mmshooreshi" target="_blank" rel="noopener noreferrer">mmti</a> ]
       </div>
       <div className={"footer-text"}>
       <h1 className=" small left">
