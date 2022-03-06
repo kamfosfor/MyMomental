@@ -16,7 +16,7 @@
 
 .logo {
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    height: 8vw;
+    height: 6vw;
     margin-top: 0px;
     cursor: pointer;
 }
@@ -32,10 +32,10 @@
 }
 
 .container:hover .blob {
-    width: 180px;
+    width: 10vw;
     cursor: pointer;
 }
 
 .container:hover .logo {
-    height: 6em;
+    height: 7vw;
 }

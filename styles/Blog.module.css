@@ -61,6 +61,7 @@
 
 .postitem__thumbnail figure, .listitem__thumbnail figure {
     /* margin: 0px; */
+    margin-left: 0px;
     align-self: center;
 }
 
@@ -185,6 +186,7 @@ font-variant-caps: all-small-caps;
     flex-wrap: nowrap;
     /* position: absolute; */
     height: 92vh;
+    margin-left: 50px
 
 }
 
