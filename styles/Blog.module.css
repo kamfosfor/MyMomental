@@ -56,8 +56,6 @@
 
 .postitem__thumbnail img {
   max-width: 10em;
-  min-height: 10em;
-
   border-radius: 79px 0px 0px;
   box-shadow: 1px 1px 20px #463f3f;
   height: auto;
@@ -78,7 +76,8 @@
 
 .listitem__thumbnail img {
     width: 10em;
-    
+    min-height: 10em;
+
     border-radius: 30px 30px 30px 50px;
     box-shadow: 1px 1px 20px #463f3f;
     /* height: auto; */
