@@ -3,10 +3,9 @@
   display: flex;
   flex: auto;
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* justify-content: flex-start; */
-  /* align-content: flex-start; */
   align-items: stretch;
+  /* margin: 0px; */
+  /* height: 110vh; */
   width: -webkit-fill-available;
 }
 
@@ -24,7 +23,10 @@
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  overflow: auto;
+  overflow: hidden;
+  /* margin-bottom: -100px; */
+  border: 1px soloid red;
+  height: 100%;
 
 
 }
@@ -35,24 +37,26 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  font-size: 2em;
-  margin-top: 10px;
+  font-size: 1em;
+  margin-top: 50px;
+  
   margin-bottom: 0.3em;
   
 }
 
 .section{
-    /* height: 100%; */
-    /* overflow: auto; */
-    display: flex;
-    /* position: relative; */
-    flex-direction: row;
-    width: -webkit-fill-available;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: stretch;
+  /* margin-top: 18px; */
+  box-shadow: 0px 0px 1px 1px #38b8c0;
+  /* margin: -20px; */
+  overflow: auto;
+  padding-bottom: 3em;
 }
 
 

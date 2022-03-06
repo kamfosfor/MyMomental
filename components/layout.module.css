@@ -14,14 +14,16 @@
     align-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 0px;
 }
 
 .header {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 90vw;
+    align-content: center;
 }
 
 .backToHome {

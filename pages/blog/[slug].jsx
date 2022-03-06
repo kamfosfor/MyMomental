@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
+import Layout from '../../components/layout'
 
 import {  getAllPostsWithSlug, getPost } from '../../lib/api';
 
@@ -24,6 +25,7 @@ export default function Post({ postData }){
   };
 
   return(
+    <Layout>
     <div className={styles.container}>
 
         <Head>
@@ -63,6 +65,7 @@ export default function Post({ postData }){
          
         </main>
       </div>
+      </Layout>
   );
 }
 
