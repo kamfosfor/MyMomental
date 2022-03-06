@@ -83,6 +83,7 @@ export default function Home() {
           display: -webkit-flex;
           display: -ms-flexbox;
           display: flex;
+          width:100%;
           -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
@@ -160,19 +161,20 @@ export default function Home() {
           -ms-flex-align: center;
           -webkit-justify-content: center;
           justify-content: center;
+          width: 100%;
           // max-width: 80vh; 
           // margin-top: 3rem;
           flex-direction: row;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
           align-items: stretch;
-          justify-content: space-between;
+          justify-content: center;
           overflow: scroll;
         }
 
         .card {
           // white-space: nowrap;
           margin: 0.5rem;
-          flex-basis: 35%;
+          flex-basis: 10%;
           padding: 1.4rem;
           text-align: left;
           color: inherit;
