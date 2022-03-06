@@ -221,6 +221,7 @@ font-variant-caps: all-small-caps;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     min-height: fit-content;
+    max-height: 100%;
     /* height: 100%; */
     padding-bottom: 5em;
     margin-right: 7em;
