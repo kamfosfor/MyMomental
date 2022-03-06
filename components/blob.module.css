@@ -16,7 +16,7 @@
 
 .logo {
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    height: 5em;
+    height: 8vw;
     margin-top: 0px;
     cursor: pointer;
 }

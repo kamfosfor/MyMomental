@@ -96,7 +96,7 @@ export default function Home() {
         }
 
         footer {
-          width: 100%;
+          width: 90vw;
           height: min-content;
           padding: 0px;
           border-top: 1px solid #eaeaea;
@@ -168,7 +168,6 @@ export default function Home() {
           flex-wrap: wrap;
           align-items: stretch;
           justify-content: center;
-          overflow: scroll;
         }
 
         .card {
@@ -187,6 +186,7 @@ export default function Home() {
         border-radius: 50px;
         // margin: 30px;
          box-shadow: 0 0 20px #0000003b;
+         flex: 1;
         
         }
 
